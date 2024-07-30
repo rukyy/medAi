@@ -6,14 +6,14 @@ const NavBar = () => {
             <div className="navbar__logo">Diagno</div>
             <div className="navcontent">
                 <ul className="navlinks">
-                    <li><Link>Home</Link> </li>
+                    <li><Link to={"/"}>Home</Link> </li>
                     <li><Link>Research</Link></li>
                     <li><Link>About us</Link></li>
                     <li><Link>Contact</Link></li>
                 </ul>
                 <ul className="navregistry">
-                    <li><button style={{backgroundColor:"white"}} ><Link to={"/login"}>Sign in</Link> </button></li>
-                    <li><button style={{color:"white", backgroundColor:"#18A6F5"}}><Link style={{color:"white"}} to={"/"}>Sign Up</Link> </button></li>
+                    <li><Link to={"/login"}><button style={{backgroundColor:"white"}} >Sign in </button></Link></li>
+                    <li><Link style={{color:"white"}} to={"/"}><button style={{color:"white", backgroundColor:"#18A6F5"}}>Sign Up</button></Link> </li>
                 </ul>
             </div>
         </div>);

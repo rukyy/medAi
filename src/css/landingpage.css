@@ -24,12 +24,14 @@
     /* border: 2px solid blue; */
     justify-content: space-around;
 }
+.actionbtns a{
+    width: 40%;
+}
 .actionbtns button{
-    padding: 2% 2%;
-    width: 35%;
+    padding: 5%;
+    width: 100%;
     border: 1px solid #18A6F5;
     border-radius: 15px;
-    margin: 2% 0;
 }
 .imagecontent{
     width: 30%;
