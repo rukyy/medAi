@@ -1,0 +1,43 @@
+.homepage{
+    display: flex;
+    padding: 2% 3%;
+    margin-top: 2%;
+    justify-content: space-around;
+
+}
+.writeupcontent{
+     /* border: 2px solid red; */
+     width:  40%;
+     text-align: left;
+}
+.writeupcontent span{
+    text-align: start;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+.writeupcontent p{
+    /* margin: 0; */
+}
+.actionbtns{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: space-around;
+}
+.actionbtns button{
+    padding: 2% 2%;
+    width: 35%;
+    border: 1px solid #18A6F5;
+    border-radius: 15px;
+    margin: 2% 0;
+}
+.imagecontent{
+    width: 30%;
+}
+.blueunderline{
+    background-color: #18A6F5;
+    border-radius: 50%;
+}
+.blueunderline img{
+    width: 90%;
+}
