@@ -12,6 +12,13 @@
     /* border: 2px solid red; */
     justify-content: space-around;
 }
+.navcontent a{
+    text-decoration: none;
+    color: black;
+}
+.navcontent a:active, a:focus{
+    color: #18A6F5;
+}
 .navbar ul{
     display: flex;
     /* border: 2px solid green; */
