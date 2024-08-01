@@ -11,8 +11,8 @@ const Home = () => {
                 </h1></span>
                 <p>Taking the next step in the health care sector</p>
                 <div className="actionbtns">
-                    <Link><button style={{ backgroundColor: "white" }}>Ai Consultation</button></Link>
-                    <Link><button style={{ backgroundColor: "#18A6F5", color: "white" }}>Login</button></Link>
+                    <Link to={"/forms"}><button style={{ backgroundColor: "white" }}>Ai Consultation</button></Link>
+                    <Link to={"/login"}><button style={{ backgroundColor: "#18A6F5", color: "white" }}>Login</button></Link>
                 </div>
             </div>
             <div className="imagecontent">
