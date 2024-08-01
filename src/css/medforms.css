@@ -1,0 +1,99 @@
+.medform{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-around;
+    margin:  2% auto;
+    /* border: 2px solid green; */
+    text-align: center  ;
+}
+
+.formpage{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0;
+    border-radius: 15px;
+}
+
+.contactform{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contactformelement{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* border:  2px solid red; */
+    font-size: 110%;
+}
+
+.contactform label{
+    margin: 3% 0 1% 0;
+    font-size: 80%;
+    text-align: left;
+}
+
+.contactform input{
+    border: 1.2px solid rgb(167, 166, 166);
+    /* border-radius: 5px; */
+    padding: 1.5% 1%;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    outline-color: #18A6F5;
+}
+.contactformelement span{
+    display: flex;
+    align-items: center;
+}
+.aboutformelement textarea{
+    outline-color: #18A6F5;
+}
+.contactformelement select{
+    /* font-size: 100%; */
+    padding: 1.4% 0%;
+    border-radius: 0;
+    /* border: 1px solid gray ; */
+    /* outline: none; */
+}
+
+.aboutform{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.aboutformelement{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 40%;
+}
+.aboutformelement label{
+    margin-top: 3%;
+    text-align: left;
+}
+.aboutformelement ul{
+    padding: 0 0% 0 5%;
+    margin: 0;
+    text-align: left;
+}
+.formpage h3,h5,h4{
+    margin: 0;
+}
+.formheader{
+    margin: 3% 0 0 0;
+
+}
+.submitformbtn{
+    background-color: #18A6F5;
+    color: white;
+    width: 35%;
+    margin: 5% auto;
+    font-size: 100%;
+    border: 0;
+    padding: 1% 0;
+    border-radius: 10px;
+}
