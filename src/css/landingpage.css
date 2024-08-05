@@ -3,16 +3,16 @@
     padding: 2% 3%;
     margin-top: 2%;
     justify-content: space-around;
+    /* height: 100dvh; */
 
 }
 .writeupcontent{
-     /* border: 2px solid red; */
      width:  40%;
      text-align: left;
 }
 .writeupcontent span{
     text-align: start;
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin: 0;
     padding: 0;
 }
@@ -36,6 +36,14 @@
 .imagecontent{
     width: 30%;
 }
+.stars{
+    position: absolute;
+    margin-top: -4%;
+    width: 8%;
+}
+.imagecontent .actionbtns{
+    display: none;
+}
 .blueunderline{
     background-color: #18A6F5;
     border-radius: 50%;
@@ -45,4 +53,47 @@
     width: 90%;
     margin: auto;
     /* border: 2px solid red; */
+}
+
+@media screen and (max-width:700px) {
+    .homepage{
+        display: block;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        align-items: center;
+        padding: 0 auto;
+    }
+    .writeupcontent{
+        width:80%;
+        text-align: left;
+        /* height: 30%; */
+        /* border: 2px solid blue; */
+        margin: 0 auto;
+    }
+    .writeupcontent span{
+        font-size: 3.5vw;
+    }
+    .writeupcontent p{
+        margin: 0;
+    }
+    .imagecontent{
+        width: 75%;
+        margin: 6% auto;
+    }
+    .writeupcontent .actionbtns{
+        display: none;
+    }
+    .imagecontent .actionbtns{
+        display: flex;
+        margin: 30% 0 0 0 ;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .actionbtns button{
+        padding: 10% 0;
+    }
+    .stars{
+        width: 18%;
+        margin-top:-8% ;
+    }
 }
