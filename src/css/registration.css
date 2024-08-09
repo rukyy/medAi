@@ -29,7 +29,7 @@
 
 .swipebar button{
     width: 40%;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: #D1DBE3;
     outline: none;
     border: 0;
@@ -71,4 +71,35 @@
     background-color: #18A6F5;
     color: white;
 
+}
+
+
+@media screen and (max-width:750px) {
+    .registration h2{
+        font-size: 100%;
+        width: 80%;
+        margin: 5% auto;
+    }
+    .regpage{
+        width: 90%;
+        /* justify-content: flex-start; */
+        display: block;
+        padding: 4% 0 0 0;
+        height: 50%;
+        margin-top: 7%;
+    }
+    .patientloginform {
+        width: 80%;
+        font-size: 115%;
+        margin: 0 auto;
+    }
+    .swipebar{
+        margin: 0 auto;
+        width: 80%;
+        padding: 2% 0;
+    }
+    .submitregform{
+        padding: 3%;
+        margin: 4% 0 0 0;
+    }
 }

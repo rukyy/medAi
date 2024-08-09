@@ -20,7 +20,6 @@
     color: #18A6F5;
 }
 .navbar ul{
-    display: flex;
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
@@ -47,4 +46,67 @@
     border: 1px solid #18A6F5;
     padding: 5% 0%;
     border-radius: 20px;
+}
+.dropbtn{
+    display: none;
+}
+
+@media screen and (max-width:750px) {
+    .navbar{
+        margin-top: 5%;
+        justify-content: space-between;
+    }
+    .navcontent{
+        display: none;
+    }
+    .navbar_logo{
+        margin-left: 4%;
+        font-size: 130%;
+        font-weight: 700;
+        color: #18A6F5;
+    }
+    .collapse{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        justify-content: space-between;
+        padding: 0 0 0 4%;
+        position: fixed;
+        margin-top: 240px;
+        /* margin: 0; */
+        background-color: #f4f2f2;
+        border-width: 0 1px 1px 0;
+        border-color: #18A6F5;
+        border-style: solid;
+        border-bottom-right-radius:10px ;
+    }
+    .collapse a{
+        text-decoration: none;
+        color: black;
+    }
+    .collapse a:active, a:focus{
+        color: #18A6F5;
+    }
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 0px;
+    }
+    .navlinks li{
+        margin: 4% 0;
+    }
+    .navregistry{
+        width: 100%;
+        margin-bottom: 10%
+    }
+    .dropbtn{
+        display: block;
+        margin-right: 2%;
+        border: 0;
+        background-color: #f4f2f2;
+        font-size: 110%;
+        color: black;
+    }
 }
